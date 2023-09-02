@@ -1,0 +1,77 @@
+// main: ../../style.less
+
+.header {
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-family: @mainFont;
+    font-size: 75px;
+    color: @blackColor;
+    margin: 64px 0 3px;
+}
+
+.header__text {
+    max-width: 800px;
+    font-family: @additionalFont;
+    font-size: 18px;
+    line-height: 24px;
+    color: @blackColor;
+    margin: 0 0 46px;
+}
+
+.header__category {
+    font-family: @mainFont;
+    font-size: 36px;
+    font-weight: bold;
+    color: @blackColor;
+    margin: 0 0 46px;
+}
+
+.header__nav {
+    margin-left: 20px;
+}
+
+.header__list {
+    all: unset;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 14px;
+    margin-bottom: 82px;
+}
+
+.header__list-item {
+    all: unset;
+    display: flex;
+    align-items: center;
+    padding: 11px 12px;
+    border: 1px solid #E8E8E8;
+    border-radius: 27px;
+    color: @blackColor;
+    font-family: @additionalFont;
+    font-size: 14px;
+}
+
+.header__list-item_chosen {
+    background-color: @orangeColor;
+    color: @whiteColor;
+    font-size: 16px;
+}
+
+.header__list-item_highlighted {
+    font-weight: bold;
+    font-family: @mainFont;
+    font-size: 16px;
+}
+
+.header__list-icon {
+    margin: auto;
+    margin-right: 8px;
+}
+
+.header__link {
+    all: unset;
+}

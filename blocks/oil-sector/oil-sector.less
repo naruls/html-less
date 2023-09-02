@@ -1,0 +1,58 @@
+//main: ../../style.less
+
+.oil-sector {
+    background-color: @darkColor;
+}
+
+.oil-sector__content {
+    max-width: 1256px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.oil-sector__title {
+    padding-top: 68px;
+    font-family: @mainFont;
+    font-size: 36px;
+    font-weight: bold;
+    color: @whiteColor;
+}
+
+.oil-sector__block {
+    &:last-of-type {
+        padding-bottom: 70px;
+    }
+}
+
+.oil-sector__list {
+    all: unset;
+    display: grid;
+    margin: 52px auto 64px;
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: center;
+    gap: 90px;
+}
+
+.oil-sector__list-item {
+    all: unset;
+}
+
+.oil-sector__list-percent {
+    font-size: 52px;
+    font-weight: bold;
+    font-family: @mainFont;
+    margin: 0;
+}
+
+.oil-sector__list-note {
+    width: 266px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: @additionalFont;
+    margin: 0;
+}
+
+.oil-sector__image {
+    margin-bottom: 64px;
+    width: 100%;
+}

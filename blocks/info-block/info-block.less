@@ -1,0 +1,18 @@
+//main: ../../style.less
+
+.info-block {
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    gap: 8px;
+    border-radius: 20px;
+    justify-content: center;
+    &-orange {
+        .infoBlock(@orangeColor, @whiteColor, 28px);
+    }
+    &-black {
+        .infoBlock(@blackColor, @whiteColor, 28px);
+    }
+    &-grey {
+        .infoBlock(#FBFBFB, @greenColor, 16px);
+    }
+}
